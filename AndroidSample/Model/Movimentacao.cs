@@ -14,9 +14,14 @@ namespace XamarinScanditSDKSampleAndroid
 {
     class Movimentacao
     {
-        private int Id { get; set; }
+        /*private int Id { get; set; }
+        public string Local { get; set; }
         public DateTime Data { get; set; }
-        public float Quantidade { get; set; }
-        public int IDAnimal { get; set; }
+        public int IDAnimal { get; set; }*/
+
+        private int Id { get; set; }
+        public string Registro_animal { get; set; }
+        public DateTime Data { get; set; }
+        public int Quantidade { get; set; }
     }
 }

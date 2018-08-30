@@ -141,6 +141,4 @@ C:\Users\Nicholas\Desktop\Facul\4 ano\AndroidSample\AndroidSample\obj\Debug\andr
 C:\Users\Nicholas\Desktop\Facul\4 ano\AndroidSample\AndroidSample\obj\Debug\android\assets\System.Transactions.pdb
 C:\Users\Nicholas\Desktop\Facul\4 ano\AndroidSample\AndroidSample\obj\Debug\android\assets\System.Web.Services.pdb
 C:\Users\Nicholas\Desktop\Facul\4 ano\AndroidSample\AndroidSample\obj\Debug\android\assets\System.Xml.Linq.pdb
-C:\Users\Nicholas\Desktop\Facul\4 ano\AndroidSample\AndroidSample\bin\Debug\XamarinScanditSDKSampleAndroid.dll
-C:\Users\Nicholas\Desktop\Facul\4 ano\AndroidSample\AndroidSample\obj\Debug\linksrc\XamarinScanditSDKSampleAndroid.dll.mdb
-C:\Users\Nicholas\Desktop\Facul\4 ano\AndroidSample\AndroidSample\obj\Debug\linksrc\Plugin.Clipboard.dll.mdb
+C:\Users\Nicholas\Desktop\Facul\4 ano\SmartFarm\SmartFarmMobileApp\AndroidSample\obj\Debug\AndroidSample.csproj.CoreCompileInputs.cache

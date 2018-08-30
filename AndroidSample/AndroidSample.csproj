@@ -66,6 +66,7 @@
   <ItemGroup>
     <Compile Include="MainActivity.cs" />
     <Compile Include="Model\Movimentacao.cs" />
+    <Compile Include="Model\Producao.cs" />
     <Compile Include="MySqlCon.cs" />
     <Compile Include="Resources\Resource.designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

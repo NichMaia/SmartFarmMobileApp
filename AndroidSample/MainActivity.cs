@@ -70,17 +70,17 @@ namespace XamarinScanditSDKSampleAndroid
                 ////   ArrayAdapter<string> adapter = new ArrayAdapter<string>(this, Android.Resource.Layout.SimpleListItem1, Producao);
                 //// listView.Adapter = adapter;
 
-                Movimentacao Mov = new Movimentacao();
-                Mov.IDAnimal = int.Parse(IDVaca.Text);
-                Mov.Data = DateTime.Now;
-                Mov.Quantidade = float.Parse(txtprod.Text);
+                Movimentacao Prod = new Movimentacao();
+                Prod.Registro_animal = IDVaca.Text;
+                Prod.Data = DateTime.Now;
+                Prod.Quantidade = int.Parse(txtprod.Text);
 
                 HttpClient client = new HttpClient();
                 string url = "http://smartfarmapi.azurewebsites.net/api/ProducaoDia";
                 var uri = new Uri(url);
                 client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
                 HttpResponseMessage response;
-                var json = JsonConvert.SerializeObject(Mov);
+                var json = JsonConvert.SerializeObject(Prod);
                 var content = new StringContent(json, Encoding.UTF8, "application/json");
                 response = await client.PostAsync(uri, content);
                 if (response.StatusCode == System.Net.HttpStatusCode.Accepted)
